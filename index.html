@@ -34,13 +34,18 @@
     <!-- header start -->
     <header class=" w-full h-20 flex justify-center font-bebas absolute bg-white">
         <!-- nav bar section  -->
-
-        <nav class="w-4/5 h-full flex justify-between items-center">
+        <nav class="w-4/5 h-full flex justify-between items-center ">
             <h1 class=" text-5xl">Jhaka Naka Production</h1>
             <ul class="flex gap-x-5 text-3xl hidden md:flex">
-                <li class="cursor-pointer">Our Movies</li>
-                <li class="cursor-pointer">About Us</li>
-                <li class="cursor-pointer">Services</li>
+                <a href="#movies">
+                    <li class="cursor-pointer">Our Movies</li>
+                </a>
+                <a href="#about">
+                    <li class="cursor-pointer">About Us</li>
+                </a>
+                <a href="#services">
+                    <li class="cursor-pointer">Services</li>
+                </a>
             </ul>
         </nav>
     </header>
@@ -62,7 +67,7 @@
             </div>
         </section>
         <!-- About Section  -->
-        <section class=" p-20">
+        <section id="about" class=" p-20">
             <div class=" bordeer-offBlack border-2 p-16">
                 <!-- About left img section  -->
                 <div class="lg:flex gap-x-20">
@@ -121,7 +126,7 @@
             </div>
         </section>
         <!-- Our Movie section  -->
-        <section class="bg-darkGray p-20">
+        <section id="movies" class="bg-darkGray p-20">
             <div class="font-bebas">
                 <h1 class="text-3xl">our Movie</h1>
                 <div class="flex justify-between items-center">
@@ -178,7 +183,7 @@
             </div>
         </section>
         <!-- our services  -->
-        <section class="p-20">
+        <section id="services" class="p-20">
             <div class="font-bebas text-center my-16">
                 <p class="text-xl">Services</p>
                 <h1 class="text-7xl">what we offer</h1>
