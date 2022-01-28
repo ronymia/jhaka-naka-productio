@@ -31,16 +31,33 @@
 </head>
 
 <body>
-    <header class=" w-full h-20 flex justify-center font-bebas">
-        <nav class="w-4/5 flex justify-between items-center">
+    <header class=" w-full h-20 flex justify-center font-bebas absolute bg-white">
+        <nav class="w-4/5 h-full flex justify-between items-center">
             <h1 class=" text-5xl">Jhaka Naka Production</h1>
-            <ul class="flex gap-4 text-3xl">
+            <ul class="flex gap-x-5 text-3xl hidden md:flex">
                 <li>About Us</li>
                 <li>Our Movies</li>
                 <li>Services</li>
             </ul>
         </nav>
     </header>
+    <main>
+        <section class="bg-[url('./images/banner.jpg')] h-screen bg-cover pt-20 flex items-center text-white">
+            <div class="mx-48 font-bebas w-2/5 leading-8">
+                <p class="text-4xl">Movie production studio</p>
+                <h1 class="text-9xl">Films MAde to</h1>
+                <h1 class="text-9xl text-yellow">Perfection</h1>
+                <p class="font-montserrat text-2xl py-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                    elit
+                    tellus,
+                    luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                </p>
+                <button
+                    class="border-2 text-4xl px-8 py-6 hover:bg-yellow hover:text-black hover:border-yellow transition-all">Discover
+                    More</button>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
